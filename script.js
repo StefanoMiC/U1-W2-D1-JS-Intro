@@ -189,15 +189,15 @@ console.log("studentDoesntHaveWebcam ", studentDoesntHaveWebcam);
 // !  => NOT
 // ritorna il valore opposto
 
-console.log(num3 < num2 && num3 === num1); // true
+console.log("COMPARAZIONE1: ", num3 < num2 && num3 === num1); // true
 //               true          true       // true
-console.log(num3 < num2 && num3 === num1 && num3 === "Stefano"); // false
+console.log("COMPARAZIONE2: ", num3 < num2 && num3 === num1 && num3 === "Stefano"); // false
 //               true           true            false           // false
 
-console.log(num3 < num2 || num3 === num2 || num3 === "Stefano"); // true
+console.log("COMPARAZIONE3: ", num3 < num2 || num3 === num2 || num3 === "Stefano"); // true
 //               true          false             false          // true
 
-console.log((num3 < num2 || num3 === num2) && num3 !== "Stefano"); // OR e AND usati in combinazione con priorità data dalle parentesi
+console.log("COMPARAZIONE4: ", (num3 < num2 || num3 === num2) && num3 !== "Stefano"); // OR e AND usati in combinazione con priorità data dalle parentesi
 //                (true  || false) => true && true  =>       // true
 
-console.log(!(num3 < num2 && num3 === num1 && num3 === "Stefano")); // prima era false adesso ==> true
+console.log("NEGAZIONE: ", !(num3 < num2 && num3 === num1 && num3 === "Stefano")); // prima era false adesso ==> true
